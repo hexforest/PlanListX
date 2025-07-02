@@ -24,8 +24,11 @@ Clone the repo:
 ```bash
 git clone https://github.com/hexforest/PlanListX.git
 cd planlistx
+```
 
 ---
+
+```bash
 PlanListX app/
 ├─ package.json
 ├─ main.js           <-- Electron main process
