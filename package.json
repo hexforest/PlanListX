@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^37.1.0"
+    "electron": "^37.1.0",
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
