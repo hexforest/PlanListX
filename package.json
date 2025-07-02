@@ -4,7 +4,9 @@
   "description": "PlanListX is an open-source, cross-platform notes and planning application built with Electron and React. It allows you to quickly capture notes—single words, sentences, or entire thoughts—and organize them into groups you can navigate through an intuitive dashboard. Each group can also be displayed as a floating popup note, helping you focus on what matters.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && electron .",
+    "build": "parcel build index.html --out-dir dist",
+    "dev": "parcel index.html"
   },
   "keywords": [],
   "author": "",
