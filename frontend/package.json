@@ -1,0 +1,13 @@
+{
+  "name": "planlistx-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html --port 3000",
+    "build": "parcel build index.html --dist-dir ../dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
