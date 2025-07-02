@@ -22,5 +22,5 @@ PlanListX is designed for writers, thinkers, students, developers, and anyone wh
 Clone the repo:
 
 ```bash
-git clone https://github.com/YOURUSERNAME/planlistx.git
+git clone https://github.com/hexforest/PlanListX-.git
 cd planlistx
