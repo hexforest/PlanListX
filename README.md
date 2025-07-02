@@ -24,3 +24,12 @@ Clone the repo:
 ```bash
 git clone https://github.com/hexforest/PlanListX.git
 cd planlistx
+
+---
+PlanListX app/
+├─ package.json
+├─ main.js           <-- Electron main process
+├─ index.html        <-- HTML entry point for React
+├─ src/
+│   └─ index.jsx     <-- React app entry point
+└─ preload.js        <-- (optional) preload script
