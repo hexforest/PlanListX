@@ -1,10 +1,15 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import notes from './notes.json';
 
 const App = () => (
   <div style={{ padding: '20px' }}>
     <h1>📝 Notes Dashboard</h1>
-    <p>Welcome to your Electron + React Notes App!</p>
+    <ul>
+      {notes.map((note, i) => (
+        <li key={i}>{note}</li>
+      ))}
+    </ul>
   </div>
 );
 

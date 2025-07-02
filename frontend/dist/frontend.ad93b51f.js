@@ -679,6 +679,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
+var _notesJson = require("./notes.json");
+var _notesJsonDefault = parcelHelpers.interopDefault(_notesJson);
 const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             padding: '20px'
@@ -688,20 +690,26 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "\uD83D\uDCDD Notes Dashboard"
             }, void 0, false, {
                 fileName: "src/index.jsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Welcome to your Electron + React Notes App!"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                children: (0, _notesJsonDefault.default).map((note, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: note
+                    }, i, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined))
             }, void 0, false, {
                 fileName: "src/index.jsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/index.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 3
     }, undefined);
 _c = App;
@@ -709,7 +717,7 @@ const container = document.getElementById('root');
 const root = (0, _client.createRoot)(container);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 13,
+    lineNumber: 18,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -720,7 +728,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./notes.json":"1AL72"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18427,6 +18435,9 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["avO4e","gYcKb"], "gYcKb", "parcelRequire21ac", {}, null, null, "http://localhost:3000")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1AL72":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse("[\"First note\",\"Second note\",\"Third note\",\"Fourth note\",\"Fifth note\",\"Sixth note\",\"Seventh note\",\"Eighth note\",\"Ninth note\",\"Tenth note\"]");
+
+},{}]},["avO4e","gYcKb"], "gYcKb", "parcelRequire21ac", {}, null, null, "http://localhost:3000")
 
 //# sourceMappingURL=frontend.ad93b51f.js.map
